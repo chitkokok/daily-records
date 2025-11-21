@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --blue:#228CE8;
+    --pink:#ED4A80;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:  "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 60px 40px;
+    margin: 50px;
+    width: 523px;
+    border-radius: 20px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #111111;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 0px 20px;
+    height: 32px;
+    line-height: 32px;
+    color: white;
+    margin-right: 8px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn-box{
+    margin-bottom: 32px;
+}
+
+
+.btn-blue{
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+    }
+    
+
+.btn-pink{
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+}
+
+
+.btn-outline-blue{
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue);
+}
+
+.btn-outline-pink{
+    color: var(--pink);
+    background-color: transparent;
+    border: 1px solid var(--pink);
+}
+
+.rouned{
+    border-radius: 6px;
+}
+
+.rouned-full{
+    border-radius: 100px;
+}
+
+
+
+.icon-btn{
+    width: 48px;
+    height: 48px;
+    padding: 0%;
+    
+}
+
+.i{
+    font-size: 18px;
+}
